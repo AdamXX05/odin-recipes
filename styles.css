@@ -1,0 +1,59 @@
+/* Stylesheet for index.html */
+#landing_title,
+.food_title,
+.list,
+.article_headers { 
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.list,
+.article_headers {
+    background-color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a.white_link {
+    color: white;
+}
+
+a.black_link {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Stylesheet for others */
+.food_title { 
+    font-size: 40px;
+}
+
+.food_images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.standard_text,
+.sub_text,
+#home_button {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-right: 40px;
+}
+.sub_text {
+    padding-right: 15px
+}
+
+#home_button {
+    font-size: 15px;
+    padding-right: 0px;
+
+}
